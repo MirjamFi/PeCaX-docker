@@ -274,7 +274,7 @@ The UUID of the pathway is part of the URL as can be seen here:
 
 ```bash
 curl -v \
-     -d "mappingType="PATHWAYMAPPING" \
+     -d "mappingType"="PATHWAYMAPPING" \
      -d "networkName"="PWM-KEGG-BMC" \
      -o response.mapping \
    http://localhost:8080/sbml4j/mapping/b6da7dc5-4dc4-4991-85c0-5ab75e2bf929
